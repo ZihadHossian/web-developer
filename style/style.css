@@ -109,6 +109,74 @@ line-height: 26px;
 text-align: left;
 padding-bottom: 30px;
 }
-#con{
- color: azure;
+/* style section */
+.section-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Open Sans;
+    width: 1140px;
+    height: 550px;
+    margin: 120px 150px 120px 150px;
+    border-radius: 10px;
+background: rgb(255, 248, 243);
+padding: 15px 15px 15px 15px;
+}
+.header-about{
+    width: 827px;
+    height: 288px;
+    left: 386px;
+    top: 1098px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+border: 1px solid rgb(0, 0, 0);
+background: rgb(255, 255, 255);
+}
+.about-heading{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.developer-spech{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+padding-top: 20px;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+}
+.developer-contact{
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    padding-bottom: -50px;
+}
+.name-m{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+}
+.from-marry{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
 }
